@@ -1,0 +1,65 @@
+Make a simple function
+    arguments
+    Default function values
+    Compact functions
+        eg - fun isHot(temperature: Int) = temperature > 30
+    function argument qas other function
+        fun abc() = 30
+        fun isHot(temperature: Int = abc()) = temperature > 30
+
+Keeps numbers primitive
+    abc.add(2)
+    abc.minus(3)
+    abc.times(6)
+
+numerical types have supertype number
+    var boxed: Number=1
+    boxed.toLong()
+
+No implicit type conversion
+    var b: Byte=1
+    var i: Int=b
+    <Error>
+
+     var i: Int=b.toInt()
+
+Nullability(Important)
+    var abc: Int = null
+    <Error>
+
+    var abc: Int? = null
+    var abc: List<String?> = listOf(null,null)
+    var abc :List<String>? = null
+    var abc:List<String?>? = null
+
+Bang
+    Usually bad idea
+    as it forces way past null operator
+    "!"
+
+Null testing made easy
+    return abc? .dec()?: 0
+
+    return only if the method is non null
+
+    ?: also called elvis operator
+
+Interpolation
+    use $ sign
+
+Everything is value
+    val a = when(number){
+        0 -> 5
+        1 -. 10
+        else -> 15
+    }
+
+    if else if using when
+
+Filters
+    val abc = listOf("hi", "test", "pet", "pan")
+    println(abc.filter(it[0] == 'p'))
+
+    Eager or lazy?
+
+    lazy - println(abc.asSequence().filter(it[0] == 'p'))
