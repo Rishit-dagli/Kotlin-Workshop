@@ -7,7 +7,7 @@ about: Create a report to help us improve
 <!--
 
 Have you read our Code of Conduct? By filing an Issue, you are expected to comply with it, 
-including treating everyone with respect: https://github.com/Rishit-dagli/Kotlin-Workshop/blob/master/code_of_conduct.md
+including treating everyone with respect: https://github.com/Rishit-dagli/Kotlin-Workshop/blob/master/CODE_OF_CONDDUCT.md
 
 -->
 
